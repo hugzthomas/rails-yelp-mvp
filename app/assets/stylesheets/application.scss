@@ -1,0 +1,32 @@
+// Graphical variables
+@import "config/variables";
+@import "config/bootstrap_variables";
+
+// External libraries
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+// Your CSS
+@import "layout/index";
+@import "components/index";
+@import "pages/index";
+@import "vendor/index";
+
+
+
+#form {
+  margin-top: 150px;
+  width : 400px;
+  background-color: #263238;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px #263238;
+}
+
+
